@@ -2,7 +2,7 @@ using System.Net;
 
 [assembly:DoNotParallelize]
 
-namespace Anduin.AnduinOSHome.Tests.IntegrationTests;
+namespace Aiursoft.AnduinOSHome.Tests.IntegrationTests;
 
 [TestClass]
 public class BasicTests : TestBase

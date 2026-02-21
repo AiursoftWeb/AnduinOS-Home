@@ -1,7 +1,7 @@
 using System.Net;
-using Anduin.AnduinOSHome.Authorization;
+using Aiursoft.AnduinOSHome.Authorization;
 
-namespace Anduin.AnduinOSHome.Tests.IntegrationTests;
+namespace Aiursoft.AnduinOSHome.Tests.IntegrationTests;
 
 [TestClass]
 public class PermissionsControllerTests : TestBase

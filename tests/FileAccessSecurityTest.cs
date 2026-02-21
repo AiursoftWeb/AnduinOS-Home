@@ -1,8 +1,8 @@
-using Anduin.AnduinOSHome.Services.FileStorage;
+using Aiursoft.AnduinOSHome.Services.FileStorage;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.Caching.Memory;
 
-namespace Anduin.AnduinOSHome.Tests;
+namespace Aiursoft.AnduinOSHome.Tests;
 
 [TestClass]
 public class FileAccessSecurityTest

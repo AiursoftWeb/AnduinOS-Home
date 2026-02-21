@@ -1,6 +1,6 @@
-using Anduin.AnduinOSHome.Models.ManageViewModels;
+using Aiursoft.AnduinOSHome.Models.ManageViewModels;
 
-namespace Anduin.AnduinOSHome.Tests.IntegrationTests;
+namespace Aiursoft.AnduinOSHome.Tests.IntegrationTests;
 
 [TestClass]
 public class ThemeControllerTests : TestBase

@@ -1,7 +1,7 @@
 using System.Net;
-using Anduin.AnduinOSHome.Services.FileStorage;
+using Aiursoft.AnduinOSHome.Services.FileStorage;
 
-namespace Anduin.AnduinOSHome.Tests.IntegrationTests;
+namespace Aiursoft.AnduinOSHome.Tests.IntegrationTests;
 
 [TestClass]
 public class FilesControllerTests : TestBase

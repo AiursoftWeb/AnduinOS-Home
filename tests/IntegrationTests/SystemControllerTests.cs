@@ -1,6 +1,6 @@
 using System.Net;
 
-namespace Anduin.AnduinOSHome.Tests.IntegrationTests;
+namespace Aiursoft.AnduinOSHome.Tests.IntegrationTests;
 
 [TestClass]
 public class SystemControllerTests : TestBase

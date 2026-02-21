@@ -2,10 +2,10 @@ using System.Net;
 using System.Text.RegularExpressions;
 using Aiursoft.CSTools.Tools;
 using Aiursoft.DbTools;
-using Anduin.AnduinOSHome.Entities;
+using Aiursoft.AnduinOSHome.Entities;
 using static Aiursoft.WebTools.Extends;
 
-namespace Anduin.AnduinOSHome.Tests.IntegrationTests;
+namespace Aiursoft.AnduinOSHome.Tests.IntegrationTests;
 
 public abstract class TestBase
 {

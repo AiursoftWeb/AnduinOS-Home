@@ -1,8 +1,8 @@
 using System.Net;
-using Anduin.AnduinOSHome.Configuration;
-using Anduin.AnduinOSHome.Services;
+using Aiursoft.AnduinOSHome.Configuration;
+using Aiursoft.AnduinOSHome.Services;
 
-namespace Anduin.AnduinOSHome.Tests.IntegrationTests;
+namespace Aiursoft.AnduinOSHome.Tests.IntegrationTests;
 
 [TestClass]
 public class GlobalSettingsTests : TestBase

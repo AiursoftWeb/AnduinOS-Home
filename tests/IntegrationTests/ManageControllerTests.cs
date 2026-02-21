@@ -1,6 +1,6 @@
-using Anduin.AnduinOSHome.Services;
+using Aiursoft.AnduinOSHome.Services;
 
-namespace Anduin.AnduinOSHome.Tests.IntegrationTests;
+namespace Aiursoft.AnduinOSHome.Tests.IntegrationTests;
 
 [TestClass]
 public class ManageControllerTests : TestBase

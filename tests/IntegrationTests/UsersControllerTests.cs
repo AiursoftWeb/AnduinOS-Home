@@ -1,7 +1,7 @@
 using System.Net;
-using Anduin.AnduinOSHome.Entities;
+using Aiursoft.AnduinOSHome.Entities;
 
-namespace Anduin.AnduinOSHome.Tests.IntegrationTests;
+namespace Aiursoft.AnduinOSHome.Tests.IntegrationTests;
 
 [TestClass]
 public class UsersControllerTests : TestBase

@@ -1,8 +1,8 @@
 using System.Net;
-using Anduin.AnduinOSHome.Models.BackgroundJobs;
-using Anduin.AnduinOSHome.Services.BackgroundJobs;
+using Aiursoft.AnduinOSHome.Models.BackgroundJobs;
+using Aiursoft.AnduinOSHome.Services.BackgroundJobs;
 
-namespace Anduin.AnduinOSHome.Tests.IntegrationTests;
+namespace Aiursoft.AnduinOSHome.Tests.IntegrationTests;
 
 /// <summary>
 /// 后台任务队列集成测试：测试BackgroundJobQueue的队列管理、任务执行、并行处理等核心功能

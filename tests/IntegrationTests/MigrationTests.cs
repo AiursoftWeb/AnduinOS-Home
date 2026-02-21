@@ -1,8 +1,8 @@
-using Anduin.AnduinOSHome.MySql;
-using Anduin.AnduinOSHome.Sqlite;
+using Aiursoft.AnduinOSHome.MySql;
+using Aiursoft.AnduinOSHome.Sqlite;
 using Microsoft.EntityFrameworkCore;
 
-namespace Anduin.AnduinOSHome.Tests.IntegrationTests;
+namespace Aiursoft.AnduinOSHome.Tests.IntegrationTests;
 
 /// <summary>
 /// This test class ensures that the Entity Framework migrations are up-to-date for all supported database providers.
