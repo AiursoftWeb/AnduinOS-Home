@@ -1,5 +1,5 @@
-ARG CSPROJ_PATH="./src/Anduin.AnduinOSHome/"
-ARG PROJ_NAME="Anduin.AnduinOSHome"
+ARG CSPROJ_PATH="./src/Aiursoft.AnduinOSHome/"
+ARG PROJ_NAME="Aiursoft.AnduinOSHome"
 
 # ============================
 # Prepare NPM Environment
