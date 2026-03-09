@@ -36,6 +36,9 @@
   <data name="License" xml:space="preserve">
     <value>许可证</value>
   </data>
+  <data name="Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries." xml:space="preserve">
+    <value>Linux® 是 Linus Torvalds 在美国和其他国家/地区的注册商标。</value>
+  </data>
   <data name="News" xml:space="preserve">
     <value>新闻</value>
   </data>

@@ -318,3 +318,7 @@ nav.navbar{
     line-height: 1.2;
     margin-top: 4px;
 }
+
+.cursor-help {
+    cursor: help;
+}

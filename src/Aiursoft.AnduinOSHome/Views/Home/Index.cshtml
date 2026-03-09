@@ -282,7 +282,15 @@
                 <h1 id="main-slogan" class="my-4 text-white" style="font-size: 3rem;">
                     @Html.Raw(randomSlogan)
                 </h1>
-                <p class="text-lg text-white-50">@Localizer["AnduinOS is a custom Ubuntu-based Linux distribution that offers a familiar and easy-to-use experience for anyone moving to Linux."]</p>
+                <p class="text-lg text-white-50">
+                    @{
+                        var introText = Localizer["AnduinOS is a custom Ubuntu-based Linux distribution that offers a familiar and easy-to-use experience for anyone moving to Linux."].Value;
+                        var trademarkTitle = Localizer["Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries."].Value;
+                        var linuxWithTrademark = $"<span class='cursor-help' title='{trademarkTitle}'>Linux®</span>";
+                        var result = new System.Text.RegularExpressions.Regex("Linux").Replace(introText, linuxWithTrademark, 1);
+                    }
+                    @Html.Raw(result)
+                </p>
                 <div class="my-4">
                     <span class="badge badge-subtle-primary p-1">v@(lastestVersion)</span>
                 </div>
